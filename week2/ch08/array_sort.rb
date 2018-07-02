@@ -3,8 +3,7 @@ favorite_words = []
 while true
 input = gets.chomp
   favorite_words.push input
-  if input == ''
-    puts
+  if input == "\n"
     puts favorite_words.sort
     break
   end
