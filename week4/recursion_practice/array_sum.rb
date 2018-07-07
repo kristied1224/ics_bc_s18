@@ -1,9 +1,11 @@
 def array_sum(array)
-  if ______________________
-    array[0]
+  if array.each == 0
+    return array[0]
   else
-    ______________________
+    sum = 0
+    array.each {|a| sum += a}
   end
+  sum
 end
 
-puts array_sum [__, __, ...] 
+puts array_sum [2, 0, 0, 8]
